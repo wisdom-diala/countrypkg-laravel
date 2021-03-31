@@ -12,7 +12,9 @@ class CountrypkgServiceProvider extends ServiceProvider
 	
 	public function boot()
 	{
-		// dd("..Ok working");
+		// $this->publishes([
+  //       __DIR__.'/../config/countrypkg.php' => config_path('courier.php'),
+  //   ]);
 	}
 
 	public function register()
