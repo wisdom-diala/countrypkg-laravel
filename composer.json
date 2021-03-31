@@ -1,0 +1,22 @@
+{
+    "name": "wisdom/countrypkg-laravel",
+    "description": "package to fetch all countries and states around the world and store in the database",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Wisdom\\Countrypkg\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wisdom\\Countrypkg\\CountrypkgServiceProvider"
+            ]
+        }
+    }
+}
