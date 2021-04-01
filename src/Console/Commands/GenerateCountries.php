@@ -51,7 +51,8 @@ class GenerateCountries extends Command
                     'short_name' => $countries[$i]->short_name,
                     'country_code' => $countries[$i]->country_code
                 ]);
-                
+                $c = $countries[$i]->name;
+                $this->info("Creating new records: $c... $i ");
             }
         }else{
             $count = Country::all()->count();
