@@ -3,6 +3,12 @@
     "description": "package to fetch all countries and states around the world and store in the database",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Wisdom Diala",
+            "email": "dialawisdom@gmail.com"
+        }
+    ],
     "minimum-stability": "dev",
     "require": {},
 
