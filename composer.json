@@ -1,5 +1,5 @@
 {
-    "name": "wisdom/countrypkg-laravel",
+    "name": "wisdom-diala/countrypkg-laravel",
     "description": "package to fetch all countries and states around the world and store in the database",
     "type": "library",
     "license": "MIT",
@@ -14,14 +14,14 @@
 
     "autoload": {
         "psr-4": {
-            "Wisdom\\Countrypkg\\": "src/"
+            "WisdomDiala\\Countrypkg\\": "src/"
         }
     },
 
     "extra": {
         "laravel": {
             "providers": [
-                "Wisdom\\Countrypkg\\CountrypkgServiceProvider"
+                "WisdomDiala\\Countrypkg\\CountrypkgServiceProvider"
             ]
         }
     }

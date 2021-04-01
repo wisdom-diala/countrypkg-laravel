@@ -1,6 +1,6 @@
 <?php
 
-namespace Wisdom\Countrypkg;
+namespace WisdomDiala\Countrypkg;
 
 use Illuminate\Support\ServiceProvider;
 

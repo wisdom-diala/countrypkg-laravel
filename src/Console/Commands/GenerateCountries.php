@@ -1,10 +1,10 @@
 <?php
 
-namespace Wisdom\Countrypkg\Console\Commands;
+namespace WisdomDiala\Countrypkg\Console\Commands;
 
 // use App\Customs\GenerateMethod;
 use Illuminate\Console\Command;
-use Wisdom\Countrypkg\Models\Country;
+use WisdomDiala\Countrypkg\Models\Country;
 
 class GenerateCountries extends Command
 {

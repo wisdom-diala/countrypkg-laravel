@@ -1,12 +1,12 @@
 <?php
 
-namespace Wisdom\Countrypkg\Console\Commands;
+namespace WisdomDiala\Countrypkg\Console\Commands;
 
 // use App\Customs\GenerateMethod;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
-use Wisdom\Countrypkg\Models\Country;
-use Wisdom\Countrypkg\Models\State;
+use WisdomDiala\Countrypkg\Models\Country;
+use WisdomDiala\Countrypkg\Models\State;
 
 class GenerateStates extends Command
 {

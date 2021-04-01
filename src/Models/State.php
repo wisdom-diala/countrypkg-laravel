@@ -1,6 +1,6 @@
 <?php
 
-namespace Wisdom\Countrypkg\Models;
+namespace WisdomDiala\Countrypkg\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
