@@ -63,7 +63,7 @@ class TestController extends Controller
 }
 ```
 Note: Make sure you import the Country and State Model that was shipped with the package.
-#### That's all you now have states and countries records in your local database and can use it anytime you want.
+#### That's all, you now have states and countries records in your local database and can use it anytime you want.
 
 Countries and states records pulled from this API https://www.universal-tutorial.com/
 
