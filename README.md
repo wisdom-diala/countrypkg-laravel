@@ -65,6 +65,8 @@ class TestController extends Controller
 Note: Make sure you import the Country and State Model that was shipped with the package.
 #### That's all, you now have states and countries records in your local database and can use it anytime you want.
 
+Watch the video on how to use the package here: https://youtu.be/7i1epKxxbd8
+
 Countries and states records pulled from this API https://www.universal-tutorial.com/
 
 ### Note: After installation of the package, you don't need any internet connection to generate the countries and states again.
