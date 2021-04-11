@@ -2,7 +2,7 @@
 package to fetch all countries and states around the world and store in the database
 
 ## IMPORTANCE OF THE PACKAGE
-**NO API CALLS**: Over the years i have been working with many API's that will help in getting countries with their State/Province, Making an API calls to the endpoint everytime a user visits the site, most of the times slow down the site while getting response from the third party website where the API was hosted. This packages eliminates any API calls of any such, you now have alll the countries in your local database by running a simple command.
+**NO API CALLS**: Over the years i have been working with many API's that will help in getting countries with their State/Province, Making an API calls to the endpoint everytime a user visits the site, most of the times slow down the site while getting response from the third party website where the API was hosted. This packages eliminates any API calls of any such, you now have all the countries in your local database by running a simple command.
 
 ## FEATURES
 **Generate Countries**: This package helps you to generate countries around the world and save it inside your existing or newly created database without hitting any API endpoint.
