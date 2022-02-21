@@ -70,3 +70,5 @@ Watch the video on how to use the package here: https://youtu.be/7i1epKxxbd8
 Countries and states records pulled from this API https://www.universal-tutorial.com/
 
 ### Note: After installation of the package, you don't need any internet connection to generate the countries and states again.
+
+### If you really find this useful please give us a star.
