@@ -15,7 +15,7 @@ class CountrypkgServiceProvider extends ServiceProvider
 		$this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
 		$this->publishes([
-	        __DIR__.'/resources/img/country_flags' => public_path('wisdom_countrypkg/img/country_flags'),
+	        __DIR__.'/resources/wisdom_countrypkg/img/country_flags' => public_path('wisdom_countrypkg/img/country_flags'),
 	    ], 'country_flags');
 		
 	}
