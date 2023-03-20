@@ -13,6 +13,10 @@ class CountrypkgServiceProvider extends ServiceProvider
 	public function boot()
 	{
 		$this->loadMigrationsFrom(__DIR__.'/database/migrations');
+
+		$this->publishes([
+	        __DIR__.'/resources/img/country_flags' => public_path('resources'),
+	    ], 'public');
 		
 	}
 
@@ -22,5 +26,7 @@ class CountrypkgServiceProvider extends ServiceProvider
 			Console\Commands\GenerateCountries::class,
 			Console\Commands\GenerateStates::class,
 		]);
+
+
 	}
 }
