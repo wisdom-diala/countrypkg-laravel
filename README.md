@@ -39,6 +39,12 @@ php artisan g:s Nigeria
 ```
 This command will generate all states/province in Nigeria.
 
+### Publish asset files
+```
+php artisan vendor:publish --tag=country_flags 
+```
+This command will publish the country flags images inside public/wisdom_countrypkg/img/country_flags
+
 ## Using it in your controller
 ```php
 namespace App\Http\Controllers;
