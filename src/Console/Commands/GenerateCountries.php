@@ -49,7 +49,8 @@ class GenerateCountries extends Command
                 Country::create([
                     'name' => $countries[$i]->name,
                     'short_name' => $countries[$i]->short_name,
-                    'country_code' => $countries[$i]->country_code
+                    'country_code' => $countries[$i]->country_code,
+                    'flag_img' => $countries[$i]->flag_img
                 ]);
                 $c = $countries[$i]->name;
                 $this->info("Creating new records: $c... $i ");
@@ -64,7 +65,8 @@ class GenerateCountries extends Command
                 Country::create([
                     'name' => $countries[$i]->name,
                     'short_name' => $countries[$i]->short_name,
-                    'country_code' => $countries[$i]->country_code
+                    'country_code' => $countries[$i]->country_code,
+                    'flag_img' => $countries[$i]->flag_img
                 ]);
                 $c = $countries[$i]->name;
                 $this->info("Creating new records: $c ... $i ");
